@@ -9,7 +9,6 @@ async function bootstrap() {
     .setTitle('Apoio comunitario')
     .setDescription('Apoio comunitario API description')
     .setVersion('1.0')
-    .addTag('apis')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('doc-api', app, document);
